@@ -1,0 +1,174 @@
+*{
+  scroll-behavior: smooth;
+}
+
+.navbar{
+  background-image: linear-gradient(to right, #222, #fff, #222);
+}
+.navbar a{
+  color: white;
+}
+
+.navbar .navbar-collapse ul li{
+  padding: 10px 20px;
+}
+.navbar .navbar-collapse ul li:hover{
+  background-color: white;
+  border-radius: 20px;
+}
+.navbar .navbar-collapse ul li:hover a{
+  color: black;
+}
+
+
+/* ===== Card-2 ===== */
+.card-2{
+  background-image: url(../img/p10.jpeg);
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  padding: 100px 0px 50px;
+}
+.card-2 .aboutus-header{
+  width: 30%;
+  margin: auto;
+  border-bottom: 2px solid white;
+}
+.card-2 .aboutus-header h2{
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  border-right: 2px solid white;
+  border-left: 2px solid white;
+  border-radius: 20px;
+}
+.card-2 .container .row .card-2-text p{
+  margin-top: 40px;
+  padding: 20px;
+  color: white;
+  font-size: 20px;
+  text-shadow: 5px 5px 2px black;
+}
+/* ===== Card-3 ===== */
+.card-3{
+  background-image: url(../img/p7.jpeg);
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  padding: 100px 0px 50px;
+}
+.card-3 .products-header{
+  width: 30%;
+  margin: auto;
+  border-bottom: 2px solid white;
+}
+.card-3 .products-header h2{
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  border-right: 2px solid white;
+  border-left: 2px solid white;
+  border-radius: 20px;
+}
+.card-3 .container .row .card{
+  background-color: #444;
+  color: white;
+}
+.modal .modal-dialog .modal-content{
+  background-color: #444;
+  color: white;
+
+}
+/* ===== Card-4 ===== */
+.card-4{
+  background-image: url(../img/p9.webp);
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  padding: 100px 0px 50px;
+}
+.card-4 .profile-header{
+  width: 30%;
+  margin: auto;
+  border-bottom: 2px solid white;
+}
+.card-4 .profile-header h2{
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  border-right: 2px solid white;
+  border-left: 2px solid white;
+  border-radius: 20px;
+}
+.card-4 .container .row .profile-img{
+  color: white;
+}
+.card-4 .container .row .profile-img img{
+  margin-bottom: 20px;
+}
+.card-4 .container .row .profile-text{
+  color: white;
+  text-align: center;
+}
+.card-4 .container .row .profile-text p{
+  font-size: 24px;
+}
+/* ===== card-5 ===== */
+.card-5{
+  background-image: url(../img/p7.jpeg);
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  padding: 100px 0px 50px;
+}
+.card-5 .gallery-header{
+  width: 30%;
+  margin: auto;
+  border-bottom: 2px solid white;
+}
+.card-5 .gallery-header h2{
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  border-right: 2px solid white;
+  border-left: 2px solid white;
+  border-radius: 20px;
+}
+.card-5 .container nav .nav-tabs{
+  width: 50%;
+  margin: auto;
+  background-color: white;
+  color: black;
+  margin-bottom: 40px;
+  border-radius: 20px;
+}
+.card-5 .container nav .nav-tabs .active{
+  background-color: black;
+  color: white;
+}
+.card-5 .container .tab-content img{
+  border: 1px solid white;
+  border-radius: 5px;
+  border-bottom: 0px !important;
+  margin: 10px 0px;
+}
+
+/* ===== footer ===== */
+footer{
+  background-color: #444;
+  padding: 50px 0px;
+}
+footer h4{
+  color: white;
+}
+footer p,
+footer a,
+footer i{
+  color: rgb(145, 144, 144);
+}
+footer ul{
+  list-style-type: none;
+  padding: 0;
+}
+footer hr{
+  border-color: rgb(145, 144, 144);
+}
+footer i{
+font-size: 20px;
+}
