@@ -19,7 +19,13 @@
 .navbar .navbar-collapse ul li:hover a{
   color: black;
 }
-
+/* ===== Card-1 ===== */
+.card-1 .carousel .carousel-inner .carousel-item{
+  height: 100vh;
+}
+.card-1 .carousel .carousel-inner .carousel-item img {
+  width: 100%;
+}
 
 /* ===== Card-2 ===== */
 .card-2{
